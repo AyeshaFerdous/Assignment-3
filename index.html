@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- google font cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+
+    <script src="https://kit.fontawesome.com/fcdb99718c.js" crossorigin="anonymous"></script>
+
+     <!-- tailwindcss + daisy ui -->
+
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+         tailwind.config = {
+           theme: {
+             extend: {
+               colors: {
+                 clifford: '#da373d',
+               }
+             }
+           }
+         }
+       </script>
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto py-6">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  
+                  <a class="btn btn-ghost text-3xl font-bold">
+                    <i class="fa-solid fa-arrow-right bg-lime-400 rounded-full text-gray-600 p-2 -rotate-45"></i>
+                     Rinterio
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium text-gray-500">
+                    <li class="hover:text-black duration-300 ease-in-out"><a>Home</a></li>
+                    <li class="hover:text-black duration-300 ease-in-out"><a>Service</a></li>
+                    <li class="hover:text-black duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-black duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-black duration-300 ease-in-out"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="space-x-3 mr-2 hidden md:flex">
+                        <button class="text-xl"><i class="fa-solid fa-magnifying-glass  bg-white text-gray-400 p-2 rounded-full"></i></button>
+                        <button class="text-xl"><i class="fa-solid fa-cart-shopping  bg-white text-gray-400 p-2 rounded-full"></i></button>
+                    </div>
+                  <a class="btn bg-lime-400 rounded-3xl font-bold hidden md:flex">Book Consult<i class="fa-solid fa-arrow-right bg-black rounded-full text-white p-2 -rotate-45"></i></a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars text-2xl text-gray-500 bg-white rounded-full"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium text-gray-500 right-0">
+                      <li class="hover:text-black duration-300 ease-in-out"><a>Home</a></li>
+                     <li class="hover:text-black duration-300 ease-in-out"><a>Service</a></li>
+                     <li class="hover:text-black duration-300 ease-in-out"><a>Portfolio</a></li>
+                     <li class="hover:text-black duration-300 ease-in-out"><a>Blogs</a></li>
+                     <li class="hover:text-black duration-300 ease-in-out"><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
