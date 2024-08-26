@@ -23,8 +23,10 @@
          tailwind.config = {
            theme: {
              extend: {
+              
                colors: {
                  clifford: '#da373d',
+
                }
              }
            }
@@ -199,7 +201,101 @@
 
         </div>
       </section>
+      
+      <!-- our latest portfolio section -->
+      <section class="py-12 md:py-24">
+        <!-- title  -->
+         <div class="space-y-6 text-center w-11/12 lg:w-1/2 mx-auto mb-6">
+           <span class="bg-white text-gray-400 rounded-xl p-2 font-medium"><i class="fa-solid fa-arrow-right"></i> Explore our latest works</span>
+           <h3 class="text-4xl font-bold text-gray-800">Our Latest Portfolio</h3>
+           <p class="text-gray-500 font-medium ">The barn house captivates with its blend of rustic charm and 
+             modern sophistication, featuring weathered wood, sleek metal accents.</p>
+         </div>
 
+
+         <div class="grid grid-cols-12 gap-6 w-11/12 mx-auto">
+            <div class="flex flex-col md:flex-row gap-5 col-span-12 lg:col-span-8 p-6 border rounded-2xl">
+              
+                <img src="./assets/img1.png" alt="">
+             
+              <div class="space-y-5">
+                <h4 class="text-3xl text-gray-700 font-bold">Commercial</h4>
+                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern The barn house captivates with its blend of rustic charm and modern .</p>
+               
+                <button class="font-bold text-xl">View details <i class="fa-solid fa-arrow-right bg-lime-400  text-gray-600 p-2 -rotate-45 rounded-full"></i></button>
+              </div>
+            </div>
+            <div class="p-6 border rounded-2xl col-span-12 md:col-span-6 lg:col-span-4">
+             
+                <img class="w-full h-full" src="./assets/img2.png" alt="">
+              
+            </div>
+            <div class="p-6 border rounded-2xl col-span-12 md:col-span-6 lg:hidden">
+             
+              <img class="w-full" src="./assets/img5.png" alt="">
+            
+          </div>
+          
+            <div class="p-6 border rounded-2xl col-span-3 hidden lg:flex">
+           
+              <img class="w-full h-full" src="./assets/img3.png" alt="">
+            
+          </div>
+          <div class="flex flex-col md:flex-row gap-5 col-span-12 lg:col-span-6 p-6 border rounded-2xl">
+       
+              <img src="./assets/img4.png" alt="">
+            
+            <div class="space-y-5">
+              <h4 class="text-3xl text-gray-700 font-bold">Commercial</h4>
+              <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern The barn house captivates with its blend of rustic charm and modern .</p>
+             
+              <button class="font-bold text-xl">View details <i class="fa-solid fa-arrow-right bg-lime-400  text-gray-600 p-2 -rotate-45 rounded-full"></i></button>
+            </div>
+          </div>
+           
+          <div class="p-6 border rounded-2xl col-span-12 md:col-span-6  lg:col-span-3 lg:hidden">
+           
+            <img class="w-full h-full" src="./assets/img3.png" alt="">
+          
+        </div>
+            
+            <div class="p-6 border rounded-2xl col-span-12 md:col-span-6 lg:col-span-3">
+         
+                <img class="w-full h-full" src="./assets/img5.png" alt="">
+            </div>
+         </div>
+      </section> 
+
+      <!-- let's discuss section -->
+      <section class="bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover bg-center py-12 md:py-24 ">
+        <!-- title  -->
+         <div class="space-y-6 text-center w-11/12 lg:w-1/2 mx-auto mb-6">
+           <span class="bg-white text-gray-400 rounded-xl p-2 font-medium"><i class="fa-solid fa-arrow-right"></i> Let's Connect</span>
+           <h3 class="text-4xl font-bold text-gray-800">Let’s Discuss Next Project</h3>
+           <p class="text-gray-500 font-medium ">The barn house captivates with its blend of rustic charm and 
+             modern sophistication, featuring weathered wood, sleek metal accents.</p>
+         </div>
+
+         <!-- form section -->
+         <div class="w-11/12 lg:w-7/12 mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-3xl w-full" type="text" placeholder="First Name*">
+            <input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-3xl w-full" type="text" placeholder="Last Name*">
+
+            <input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-3xl w-full" type="text" placeholder="Phone Number*">
+            <input class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-3xl w-full" type="text" placeholder="Email Number*">
+
+            <div class="md:col-span-2">
+              <textarea rows="9" class="mt-3 p-4 border-none outline-none bg-slate-100 rounded-3xl w-full" type="text" placeholder="Your Message"></textarea>
+            </div>
+
+            <button class="btn bg-lime-400 rounded-3xl font-bold md:col-span-2">Send Message<i class="fa-solid fa-arrow-right bg-black rounded-full text-white p-2 -rotate-45"></i></button>
+             
+            
+          </div>
+         </div>
+
+    </section>
     </main>
     <footer>
 
